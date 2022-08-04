@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MaterialLayout</string>
+    <string name="Param">Param</string>
+    <string name="Enter_email">Enter your email</string>
+    <string name="Enter_password">Enter Password</string>
+    <string name="Click">"Click "</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="please_enter_name">Please Enter Name</string>
+    <string name="login_successfully">Successfully Data Entered</string>
+</resources>

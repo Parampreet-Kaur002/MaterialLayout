@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHome"
+        android:src="@drawable/ic_baseline_home_24"
+        android:layout_marginTop="@dimen/height_35dp"
+        android:layout_gravity="center"/>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:hint="@string/Enter_email"
+       app:counterEnabled="true"
+       style="@style/Widget.Material3.TextInputEditText.OutlinedBox">
+       <com.google.android.material.textfield.TextInputEditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/etEmail"
+           android:inputType="textEmailAddress"
+           android:height="@dimen/height_100dp"
+           android:layout_marginTop="@dimen/height_100dp"/>
+   </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/Enter_password"
+        android:orientation="vertical"
+        app:counterEnabled="true"
+        app:hintAnimationEnabled="true"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/purple_700"
+        app:passwordToggleTintMode="screen">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:layout_marginTop="@dimen/height_35dp"
+            android:height="@dimen/height_100dp"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="37dp"
+        android:id="@+id/btnClick"
+        android:layout_marginStart="@dimen/height_200dp"
+        android:text="@string/Click"/>
+
+
+</LinearLayout>
+</layout>

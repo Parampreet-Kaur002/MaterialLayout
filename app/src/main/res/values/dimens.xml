@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_35dp">35dp</dimen>
+    <dimen name="height_100dp">100dp</dimen>
+    <dimen name="text_25sp">25sp</dimen>
+    <dimen name="height_200dp">200dp</dimen>
+</resources>
